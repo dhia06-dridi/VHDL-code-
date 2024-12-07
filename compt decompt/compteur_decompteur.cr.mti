@@ -1,0 +1,10 @@
+{F:/projet/VHDLproject/compt decompt/com_decom.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {F:/projet/VHDLproject/compt decompt/com_decom.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity CompteurDecompteur
+-- Compiling architecture behavior of CompteurDecompteur
+
+} {} {}}

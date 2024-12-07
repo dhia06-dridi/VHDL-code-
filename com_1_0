@@ -1,0 +1,29 @@
+LIBRARY IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+entity compt is 
+port (a: in std_logic_vector (7 downto 0);
+b:in std_logic_vector (7 downto 0);
+a_sup_b:out std_logic;
+a_inf_b:out std_logic;
+
+a_egale_b:out std_logic);
+end compt;
+architecture comporte of compt is 
+begin 
+process(a,b) begin 
+if (a>b) then 
+ a_sup_b<='1';
+a_inf_b<='0';
+a_egale_b<='0';
+elsif  (a<b) then 
+a_sup_b<='0';
+a_inf_b<='1';
+a_egale_b<='0';
+else 
+a_sup_b<='0';
+a_inf_b<='0';
+a_egale_b<='1';
+end if ;
+end process; 
+end comporte ;

@@ -1,0 +1,50 @@
+-- 4-bit magnitude comparator with cascading (7485)
+entity comparator_ca is
+    Port (
+        A, B: in STD_LOGIC_VECTOR (3 downto 0);
+        Ca, Cb, Ceq: in STD_LOGIC; -- Cascading inputs
+        Ag, Bg, AeqB: out STD_LOGIC -- Ag stands for "A is greater"
+    );
+end entity comparator_ca;
+
+architecture Behavioral of comparator_ca is
+begin
+    process (A, B, Ca, Cb, Ceq)
+        variable tag, tbg, teq: std_logic := '0';
+    begin
+        if A > B then
+            tag := '1';
+            tbg := '0';
+            teq := '0';
+        elsif A < B then
+            tbg := '1';
+            tag := '0';
+            teq := '0';
+        end if;
+
+        if tag = '0' and tbg = '0' then
+            if Ca = '1' and Cb = '0' and Ceq = '0' then
+                tag := '1';
+            end if;
+            if Ca = '0' and Cb = '1' and Ceq = '0' then
+                tbg := '1';
+            end if;
+            if Ceq = '1' then
+                teq := '1';
+            end if;
+            if Ca = '1' and Cb = '1' and Ceq = '0' then
+                tbg := '0';
+                tag := '0';
+                teq := '0';
+            end if;
+            if Ca = '0' and Cb = '0' and Ceq = '0' then
+                tag := '1';
+                tbg := '1';
+            end if;
+        end if;
+
+        Ag <= tag;
+        Bg <= tbg;
+        AeqB <= teq;
+    end process;
+end Behavioral;

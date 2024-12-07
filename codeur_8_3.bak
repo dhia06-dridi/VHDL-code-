@@ -1,0 +1,16 @@
+library ieee ; 
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+entity coder_8vers3 is
+port(E0,E1,E3,E4,E5,E6,E7: in bit;
+s0,S1,S2:out bit );
+end coder_8vers3;
+architecture struct of coder_8vers3 is 
+begin 
+process (E0,E1,E3,E4,E5,E6,E7) 
+begin 
+    s0<=E1 or E3 or E5 or E7 ; 
+s1 <=E2 or E3 or E6 or E7 ; 
+s2 <=E4 or E5 or E6 or E7 ; 
+END process;
+end;

@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+entity tri_tableau is 
+port( clk , reset,start : in std_logic;
+done : out std_logic;
+data_in : in std_logic_vector(7 downto 0);
+data_out :out std_logic_vector(7 downto 0));
+end entity tri_tableau;
+architecture behavior of tri_tableau is 
+type array_t is array (0 to 9) of integer range 0 to 255;
+signal array_data :array_t := (others =>0);
+signal i,j : integer range 0 to 9 ; 
+signal temp :integer range 0 to 255;
+begin 
+process(clk, reset)
+begin 
+if reset ='1' then 
+i<=0;
+j<=0; 
+done <= '0';
+elsif rising_edge(clk) then
+if start='1' then 
+for i in 0 to 8 loop 
+for j in 0 to 8-i loop
+if array_data(j)>array_data(j+1) then 
+temp <= array_data(j);
+array_data(j) <= array_data(j+1);
+array_data(j+1)<= temp;
+end if ; 
+end loop;
+end loop;
+for i in 0 to 9 loop 
+data_out <= std_logic_vector(to_unsigned(array_data(i),8));
+end loop;
+done <= '1';
+else 
+done <= '0';
+end if ;
+end if ;
+end process ;
+end architecture behavior;

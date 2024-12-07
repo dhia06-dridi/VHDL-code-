@@ -1,0 +1,207 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/application/ModelSim/model/examples
+T_opt
+!s110 1709633651
+VJU1fDzfaNURg80HinW8`U3
+04 8 11 work cmp4biis description 1
+=1-705ab6a532c2-65e6f073-46-4894
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6d;65
+T_opt1
+!s110 1708770011
+VYT[1YbaQLQS;Je]S6oP6>0
+04 7 6 work fulladd struct 1
+=1-705ab6a532c2-65d9c2da-2e3-140c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1709633100
+VabP[n8dHkRl8:V8ofMbzi2
+04 8 11 work com4bits description 1
+=1-705ab6a532c2-65e6ee4c-2cb-525c
+R1
+R2
+n@_opt2
+R3
+R0
+Ecmp4biis
+Z4 w1709633601
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 dF:/projet/VHDLproject
+Z11 8F:/projet/VHDLproject/comptraz-2.vhd
+Z12 FF:/projet/VHDLproject/comptraz-2.vhd
+l0
+L5
+VXl^FX?4:Eki?GjZgV?U2S1
+!s100 I99z?zG]_agS[5CKUI1]z0
+Z13 OL;C;10.6d;65
+32
+Z14 !s110 1709633606
+!i10b 1
+Z15 !s108 1709633606.000000
+Z16 !s90 -reportprogress|300|-work|work|F:/projet/VHDLproject/comptraz-2.vhd|
+Z17 !s107 F:/projet/VHDLproject/comptraz-2.vhd|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Adescription
+R5
+R6
+R7
+R8
+R9
+DEx4 work 8 cmp4biis 0 22 Xl^FX?4:Eki?GjZgV?U2S1
+l13
+L11
+Vm97dc[UPI<>oPER<?Jkhn0
+!s100 138AcadmobJ]lQGj5`9o:2
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ecom4bits
+Z20 w1709632930
+R5
+R6
+R7
+R8
+R9
+R10
+Z21 8F:/projet/VHDLproject/Untitled-1.vhd
+Z22 FF:/projet/VHDLproject/Untitled-1.vhd
+l0
+L5
+VPMUA7HhbMfQUnfePlJdW01
+!s100 450FL1Mze3P1jE`QE[VZn0
+R13
+32
+Z23 !s110 1709633093
+!i10b 1
+Z24 !s108 1709633093.000000
+Z25 !s90 -reportprogress|300|-work|work|F:/projet/VHDLproject/Untitled-1.vhd|
+Z26 !s107 F:/projet/VHDLproject/Untitled-1.vhd|
+!i113 0
+R18
+R19
+Adescription
+R5
+R6
+R7
+R8
+R9
+DEx4 work 8 com4bits 0 22 PMUA7HhbMfQUnfePlJdW01
+l11
+L9
+VlYJg4n3GjJc>M^bPb5A?=0
+!s100 eIK^Hdf`:0k`G65EN=P<S2
+R13
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
+Efulladd
+Z27 w1708769471
+R8
+R9
+Z28 dF:/projet
+Z29 8F:/projet/add complet.vhd
+Z30 FF:/projet/add complet.vhd
+l0
+L4
+Vo>TB2I>QeIPH7^@ZbJi>_2
+!s100 m]28OZKa[81VLVnbo4[`B0
+R13
+32
+Z31 !s110 1708769715
+!i10b 1
+Z32 !s108 1708769715.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/projet/add complet.vhd|
+Z34 !s107 F:/projet/add complet.vhd|
+!i113 0
+Z35 o-work work -2002 -explicit
+R19
+Astruct
+R8
+R9
+DEx4 work 7 fulladd 0 22 o>TB2I>QeIPH7^@ZbJi>_2
+l22
+L11
+VD3dVGR2^h4m`hcH:nO=m82
+!s100 T<2LCLdjG23J>KTK>9Pg51
+R13
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R35
+R19
+Ehalfadd
+Z36 w1708765245
+R8
+R9
+R28
+Z37 8F:/projet/1.vhd
+Z38 FF:/projet/1.vhd
+l0
+L3
+V`<Y4CMmTL`UKo4M4Zo6821
+!s100 i8fKS:eW`cFhoT02NDHE70
+R13
+32
+R31
+!i10b 1
+R32
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/projet/1.vhd|
+Z40 !s107 F:/projet/1.vhd|
+!i113 0
+R35
+R19
+Astruct
+R8
+R9
+DEx4 work 7 halfadd 0 22 `<Y4CMmTL`UKo4M4Zo6821
+l8
+L7
+VebWg_0WbQ9nU1A2Fm0J:Y2
+!s100 CA1>cY2XQcSFbmEz==Qa>0
+R13
+32
+R31
+!i10b 1
+R32
+R39
+R40
+!i113 0
+R35
+R19

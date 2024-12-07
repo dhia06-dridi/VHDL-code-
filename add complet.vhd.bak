@@ -1,0 +1,17 @@
+library ieee ;
+use ieee.std_logic_1164.all;
+entity FULLADD is 
+port ( A,B,cin: in bit 
+cout,S: out bit
+);
+end FULLADD;
+architecture struct of FULLADD is 
+signal I1,I2,I3 : bit ;
+component HALFADD 
+port(A,B : in bit ;
+S,C : out bit);
+end component ;
+begin 
+HA1:HALFADD port map (A,B,I1,I2); HA2:HALFADD port map (I1,cin,S,I3);
+cout <= I3 or I2 ;
+ end struct;

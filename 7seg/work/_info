@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/application/ModelSim/model/examples
+T_opt
+!s110 1709631880
+Vc[4>HBjO?oEl`@T]1FBn41
+04 3 6 work mux struct 1
+=1-705ab6a532c2-65e6e988-29d-4d68
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1709628583
+VAWG<^0:4=[Ud[<^9;jYnm1
+04 8 8 work basculed basculed 1
+=1-705ab6a532c2-65e6dca7-16c-c4
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1709629667
+VdO@WQK@g@_VJO>Mf6;3RD1
+04 7 6 work halfadd struct 1
+=1-705ab6a532c2-65e6e0e2-3c2-546c
+R1
+R2
+n@_opt2
+R3
+R0
+Ebasculed
+Z4 w1709628564
+Z5 dF:/projet/VHDLproject/7seg
+Z6 8F:/projet/VHDLproject/7seg/basculD.vhd
+Z7 FF:/projet/VHDLproject/7seg/basculD.vhd
+l0
+L1
+V?aS0Hfk_LVP6dZIGX<K<80
+!s100 B^Wdl?27VmmK@974MkQC62
+Z8 OL;C;10.6d;65
+32
+Z9 !s110 1709631738
+!i10b 1
+Z10 !s108 1709631738.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/projet/VHDLproject/7seg/basculD.vhd|
+Z12 !s107 F:/projet/VHDLproject/7seg/basculD.vhd|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abasculed
+DEx4 work 8 basculed 0 22 ?aS0Hfk_LVP6dZIGX<K<80
+l7
+L6
+VgDlii4hT;Xoe3d?ZzlFXC3
+!s100 <CT=813j_`S0Nd`8[jJh?1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ebcd_to_7seg
+Z15 w1709627873
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R5
+Z18 8F:/projet/VHDLproject/7seg/7seggment.vhd
+Z19 FF:/projet/VHDLproject/7seg/7seggment.vhd
+l0
+L4
+VPcC6JnVGQDzkdYaXBRjY31
+!s100 2izFYDCKSC]3c7B8HhYiU3
+R8
+32
+R9
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/projet/VHDLproject/7seg/7seggment.vhd|
+Z21 !s107 F:/projet/VHDLproject/7seg/7seggment.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+DEx4 work 11 bcd_to_7seg 0 22 PcC6JnVGQDzkdYaXBRjY31
+l12
+L11
+VahkP?9?dhHWTUjz5YY4E_3
+!s100 6nIBz469C4AX[BYEY@hkn3
+R8
+32
+R9
+!i10b 1
+R10
+R20
+R21
+!i113 0
+R13
+R14
+Ehalfadd
+Z22 w1708765245
+R16
+R17
+R5
+Z23 8F:/projet/VHDLproject/demi add.vhd
+Z24 FF:/projet/VHDLproject/demi add.vhd
+l0
+L3
+Vn:NhkdHNjKYjNJ_GPi7Zh0
+!s100 i8fKS:eW`cFhoT02NDHE70
+R8
+32
+Z25 !s110 1709629653
+!i10b 1
+Z26 !s108 1709629653.000000
+Z27 !s90 -reportprogress|300|-work|work|F:/projet/VHDLproject/demi add.vhd|
+Z28 !s107 F:/projet/VHDLproject/demi add.vhd|
+!i113 0
+Z29 o-work work
+R14
+Astruct
+R16
+R17
+DEx4 work 7 halfadd 0 22 n:NhkdHNjKYjNJ_GPi7Zh0
+l8
+L7
+VjE;L?D1]`[4_@19cTklYe2
+!s100 CA1>cY2XQcSFbmEz==Qa>0
+R8
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R14
+Emux
+Z30 w1709631868
+R16
+R17
+R5
+Z31 8F:/projet/VHDLproject/7seg/mux.vhd
+Z32 FF:/projet/VHDLproject/7seg/mux.vhd
+l0
+L3
+VSBN<J;?eCflg:nH^l35cN1
+!s100 `Fje_I>z13JHIVYRX^_SI0
+R8
+32
+Z33 !s110 1709632027
+!i10b 1
+Z34 !s108 1709632027.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/projet/VHDLproject/7seg/mux.vhd|
+Z36 !s107 F:/projet/VHDLproject/7seg/mux.vhd|
+!i113 0
+R13
+R14
+Astruct
+R16
+R17
+Z37 DEx4 work 3 mux 0 22 SBN<J;?eCflg:nH^l35cN1
+l8
+L8
+Z38 VDkC_o@EUHGd5O;HYb?7:N0
+Z39 !s100 GfAZOHQQMTQb;2fiQT`B[3
+R8
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R13
+R14

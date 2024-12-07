@@ -1,0 +1,23 @@
+F:/projet/VHDLproject/7seg/7seggment.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none F:/projet/VHDLproject/7seg/7seggment.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCD_to_7seg
+-- Compiling architecture Behavioral of BCD_to_7seg
+
+} {} {}} F:/projet/VHDLproject/7seg/basculD.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none F:/projet/VHDLproject/7seg/basculD.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Compiling entity basculeD
+-- Compiling architecture basculeD of basculeD
+
+} {} {}} F:/projet/VHDLproject/7seg/mux.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none F:/projet/VHDLproject/7seg/mux.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX
+-- Compiling architecture struct of MUX
+
+} {} {}}
